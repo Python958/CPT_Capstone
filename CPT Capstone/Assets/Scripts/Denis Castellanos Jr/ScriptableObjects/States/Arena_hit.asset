@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7016e60c04d68924db7620dc2d146d17, type: 3}
+  m_Name: Arena_hit
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 55b664fffcbd3fe40b3bcb9af61b1dd8, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 14eadb200f1306f43827643b0f89e4b2, type: 2}
+    trueState: {fileID: 11400000, guid: 11ee31412e3e5dc4cbe4cbf88ac077d6, type: 2}
+    falseState: {fileID: 11400000, guid: 6ba3c6db7834bd94b9b593425d3d84b6, type: 2}
+  - decision: {fileID: 11400000, guid: 150319a501ba6424385639f9a5d16e40, type: 2}
+    trueState: {fileID: 11400000, guid: 11ee31412e3e5dc4cbe4cbf88ac077d6, type: 2}
+    falseState: {fileID: 11400000, guid: 74f74639bfcbe964cb4e30071fd5d14f, type: 2}
+  sceneGizmoColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

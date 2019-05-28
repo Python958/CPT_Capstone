@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9057795321434627992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9057795321434627991}
+  - component: {fileID: 9057795321434627990}
+  - component: {fileID: 9057795321434627993}
+  m_Layer: 0
+  m_Name: RandomSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9057795321434627991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057795321434627992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.2898564, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9057795321434627990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057795321434627992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99dae16092b90fa4cbdbc4789875dec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  decorateObject1:
+  - {fileID: 3851548091901126592, guid: e1697466020a6b542bc4c1fc8e210c43, type: 3}
+  - {fileID: 8724631792763153070, guid: 5ca4a4641b2e60e4ab40753260140e58, type: 3}
+  - {fileID: 1435804345121581871, guid: 34efaa71cbc1bb549b42e719d1500a2b, type: 3}
+  - {fileID: 100000, guid: f88d54da483241c41988d55d20ca46e4, type: 3}
+  decorateObject1Spacing: 1
+  decorateObject1ChanceToSpawn: 0.1
+--- !u!65 &9057795321434627993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057795321434627992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 145.25177, y: 1, z: 124.983475}
+  m_Center: {x: 12.754974, y: 0, z: -2.6755753}

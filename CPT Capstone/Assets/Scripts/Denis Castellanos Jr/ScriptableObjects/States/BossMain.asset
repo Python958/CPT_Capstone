@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7016e60c04d68924db7620dc2d146d17, type: 3}
+  m_Name: BossMain
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 55b664fffcbd3fe40b3bcb9af61b1dd8, type: 2}
+  - {fileID: 11400000, guid: a67fdf9f378ad944bb588b578ddc75cb, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 150319a501ba6424385639f9a5d16e40, type: 2}
+    trueState: {fileID: 11400000, guid: 11ee31412e3e5dc4cbe4cbf88ac077d6, type: 2}
+    falseState: {fileID: 11400000, guid: f6bac44354669d84ead2574ad59aa03d, type: 2}
+  - decision: {fileID: 11400000, guid: 14eadb200f1306f43827643b0f89e4b2, type: 2}
+    trueState: {fileID: 11400000, guid: 11ee31412e3e5dc4cbe4cbf88ac077d6, type: 2}
+    falseState: {fileID: 11400000, guid: f6bac44354669d84ead2574ad59aa03d, type: 2}
+  - decision: {fileID: 11400000, guid: 1874ddf66a0ac1241b1c899411b8107b, type: 2}
+    trueState: {fileID: 11400000, guid: f6bac44354669d84ead2574ad59aa03d, type: 2}
+    falseState: {fileID: 11400000, guid: 446ecbc728dce644f81edaeeba27bc46, type: 2}
+  sceneGizmoColor: {r: 1, g: 0, b: 0.87986803, a: 1}
