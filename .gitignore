@@ -2,4 +2,5 @@ Library/
 Packages/
 Logs/
 Temp/
-.vs/Debug/
+Debug/
+v15/
