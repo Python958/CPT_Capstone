@@ -416,6 +416,7 @@ GameObject:
   - component: {fileID: 8279934822897929718}
   - component: {fileID: 4048283787479044313}
   - component: {fileID: 750626505918053908}
+  - component: {fileID: 2275328936020999028}
   m_Layer: 0
   m_Name: ExplodingBarrell
   m_TagString: Untagged
@@ -483,6 +484,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!208 &2275328936020999028
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5760778952894926120}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &5760778953204752704
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,6 +1009,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: dde460b0337dcf549995588a5ebf1f4c, type: 3}
       propertyPath: m_Name
       value: Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: dde460b0337dcf549995588a5ebf1f4c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dde460b0337dcf549995588a5ebf1f4c, type: 3}
       propertyPath: m_LocalPosition.x
