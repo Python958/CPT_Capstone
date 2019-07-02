@@ -35,6 +35,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MissionBreifing2.unity
     guid: dbd70554be3290c48b801f740189673b
+  - enabled: 1
+    path: Assets/Scenes/WaveLevel 2.unity
+    guid: fa3fce958b13a474db3ae79be544c1d2
+  - enabled: 1
+    path: Assets/Scenes/WaveLevel_3.unity
+    guid: 04cfb74e3f4874c47b821e1c40016cd6
+  - enabled: 1
+    path: Assets/Scenes/EasyHive.unity
+    guid: af89821b575c3e949ae04bc645a4b5b7
   - enabled: 0
     path: Assets/Scenes/TheFortress.unity
     guid: 4e22c38a26ac7144bb8a66550be747c7

@@ -49,50 +49,39 @@ public class MainMenu : MonoBehaviour
 
     public void Level1()
     {
-        AMS_UniversalFunctions.GoToMissionBreifing(1, "TheHiveLevel");
+        AMS_UniversalFunctions.GoToMissionBreifing(1, "WaveLevel");
         ClickSound();
         //levelIndex = 2;
     }
 
     public void Level2()
     {
-        AMS_UniversalFunctions.GoToMissionBreifing(2, "WaveLevel");
+        AMS_UniversalFunctions.GoToMissionBreifing(2, "WaveLevel 2");
+        ClickSound();
+        //levelIndex = 3;
+    }
+    public void Level3()
+    {
+        AMS_UniversalFunctions.GoToMissionBreifing(3, "EasyHive");
         ClickSound();
         //levelIndex = 3;
     }
 
     public void Level4()
     {
-        /* var Loader = FindObjectOfType<NewSaveAndLoad>();
-         if (Loader != null)
-         {
-             var path = Loader.dataPathPos;
-             if (Loader.SaveExists(path))
-             {
-                 Loader.DeleteSave(path);
-             }
-         }
-         else { Debug.Log("there should be a save and load prefab in the scene"); }
-         */
-        AMS_UniversalFunctions.GoToMissionBreifing(4, "TheFortress");
+        AMS_UniversalFunctions.GoToMissionBreifing(4, "WaveLevel_3");
         ClickSound();
         //levelIndex = 4;
     }
-    public void Level3()
-    {
-        AMS_UniversalFunctions.GoToMissionBreifing(3, "MidLevel");
-        ClickSound();
-        //levelIndex = 3;
-    }
     public void Level5()
     {
-        AMS_UniversalFunctions.GoToMissionBreifing(5, "TheSkyFalls");
+        AMS_UniversalFunctions.GoToMissionBreifing(5, "TheHiveLevel");
         ClickSound();
         //levelIndex = 3;
     }
     public void Level6()
     {
-        AMS_UniversalFunctions.GoToMissionBreifing(6, "StealthScene");
+        AMS_UniversalFunctions.GoToMissionBreifing(6, "TheSkyFalls");
         ClickSound();
         //levelIndex = 3;
     }

@@ -12,14 +12,14 @@ public static class AMS_UniversalFunctions
 
     //Mission text
     public static string[] objectivesText = {
-        "1.Waves do not stop! Defeat the 3 Enemy Hives \n  \n2.Keep The Base Alive", //Hive Level
-        "1.Survive 6 Waves \n \n2.Keep The Base Alive", //Wave Level
-        "1.Defeat the HVT \n \n2.Keep The EVAC Alive", 
-        "1.Find The Winning Resource \n \n2.Keep The Base Alive",
-        "1.Defeat the 6 Assault Waves \n \n2.Keep The Base Alive", //Skyfall Level
-        "1.Use the keys to open the locked doors. \n \n2.Escape to the elevator.",
-        "1.Survive the 14 Wave Onslaught & Bring down as many opponents as possible.", //Arena Level
-        "1.Follow all Instructions \n \n2.Finish Bootcamp" };
+        "1.Survive 6 Waves \n \n2.Keep The Base Alive", //Hive Level - Level 1 - WaveLevel
+        "1.Survive 6 Waves \n \n2.Keep The Base Alive", //Level 2 - WaveLevel2
+        "1.Waves do not stop! Defeat the 3 Enemy Hives \n  \n2.Keep The Base Alive",  //Level 3 - EasyHive
+        "1.Survive 3 Waves \n \n2.Keep The Base Alive", //Level 4 - WaveLevel3 
+        "1.Waves do not stop! Defeat the 3 Enemy Hives \n  \n2.Keep The Base Alive", //Level 5 - Hive Level
+        "1.Survive 6 Waves \n \n2.Keep The Base Alive \n \n Defeat The Boss", // Level 6 - TheSkyFalls 
+        "1.Survive the 14 Wave Onslaught & Bring down as many opponents as possible.", //Level 7 - Arena
+        "1.Follow all Instructions \n \n2.Finish Bootcamp" }; //Tutorial
 
     public static void GoToResultsScreen(bool victory)
     {

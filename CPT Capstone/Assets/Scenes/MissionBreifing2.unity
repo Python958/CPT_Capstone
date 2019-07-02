@@ -1024,21 +1024,21 @@ MonoBehaviour:
   declineMissionButton: {fileID: 1287615962}
   skipButton: {fileID: 192576970}
   leftDisplayImage:
-  - {fileID: 21300000, guid: aa96cdce494106d459a07224cfd92ab4, type: 3}
   - {fileID: 21300000, guid: 491e22a148f3d264787c61b2806e9d6c, type: 3}
-  - {fileID: 21300000, guid: 2fb78c6cb8ceb2f45ad3807e5c2af16d, type: 3}
-  - {fileID: 21300000, guid: d3cb5a8f77f55a2419d78e949e732f57, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: aa96cdce494106d459a07224cfd92ab4, type: 3}
   - {fileID: 21300000, guid: d277fbe8f8cc01a43b77e1754f9206f0, type: 3}
-  - {fileID: 21300000, guid: 228edbc2de5031049a810c0e7bf991f7, type: 3}
   - {fileID: 21300000, guid: 9aeb8e7e312bbc54cad4780402cc056b, type: 3}
   - {fileID: 21300000, guid: 882e000c99934e9499b3a89cea2654ad, type: 3}
   rightDisplayImage:
-  - {fileID: 21300000, guid: 7ec99bfa8e279f34992df65b393203af, type: 3}
   - {fileID: 21300000, guid: abf5d6f2991b8f14aa2a8c7b3b9b9279, type: 3}
-  - {fileID: 21300000, guid: 0a7b5227a2c4dad4dbea4e658284edc4, type: 3}
-  - {fileID: 21300000, guid: 53d350174bcf50d4d8a988f4cd6d3753, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 7ec99bfa8e279f34992df65b393203af, type: 3}
   - {fileID: 21300000, guid: 90b903b1ff48ae64584b14d4b7070327, type: 3}
-  - {fileID: 21300000, guid: f219be73d235c604fa85e851dc36a54e, type: 3}
   - {fileID: 21300000, guid: ee64961fa1b089747be24a968647cc4e, type: 3}
   - {fileID: 21300000, guid: d652d51eca01e00449b1cfd92731c8c4, type: 3}
 --- !u!4 &896525677
