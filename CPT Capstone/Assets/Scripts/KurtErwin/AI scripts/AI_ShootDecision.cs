@@ -14,9 +14,9 @@ public class AI_ShootDecision : DLC_Decision
     public bool GetRange(DLC_StateController controller)
     {
         bool finalDecision = false;
-        var target = controller.chaseTarget.gameObject;
-        if (target != null)
+        if (controller.chaseTarget != null)
         {
+            var target = controller.chaseTarget.gameObject;
             var pointDistance = Vector3.Distance(target.transform.position, controller.eyes.position);
             var range = 10f;
 
@@ -24,7 +24,7 @@ public class AI_ShootDecision : DLC_Decision
             var gun = controller.gameObject.GetComponent<EnemyGun>();
             if (gun != null) { range = gun.GetIdealRange(); } //this gets the varied range so they are not all stopping at the same point
 
-            if(pointDistance < range)
+            if (pointDistance < range)
             {
                 finalDecision = true; //player is in range
             }

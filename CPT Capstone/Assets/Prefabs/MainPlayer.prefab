@@ -840,8 +840,8 @@ CharacterController:
   serializedVersion: 2
   m_Height: 4.05
   m_Radius: 1.13
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_SlopeLimit: 0
+  m_StepOffset: 0
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
@@ -1958,6 +1958,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1057677478493114925}
     m_Modifications:
+    - target: {fileID: 100002, guid: 727d73b8bc6c093439016bafc296e2ba, type: 3}
+      propertyPath: m_Name
+      value: ShotGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 727d73b8bc6c093439016bafc296e2ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 727d73b8bc6c093439016bafc296e2ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.344
@@ -2013,14 +2021,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 727d73b8bc6c093439016bafc296e2ba, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 727d73b8bc6c093439016bafc296e2ba, type: 3}
-      propertyPath: m_Name
-      value: ShotGun
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 727d73b8bc6c093439016bafc296e2ba, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727d73b8bc6c093439016bafc296e2ba, type: 3}
@@ -2213,6 +2213,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1057677478493114925}
     m_Modifications:
+    - target: {fileID: 100002, guid: 6c2e70b3aaffd7449a0e7c061c0b1321, type: 3}
+      propertyPath: m_Name
+      value: RicochetRifle
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 6c2e70b3aaffd7449a0e7c061c0b1321, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 6c2e70b3aaffd7449a0e7c061c0b1321, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.40139
@@ -2268,14 +2276,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: 6c2e70b3aaffd7449a0e7c061c0b1321, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.1283
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 6c2e70b3aaffd7449a0e7c061c0b1321, type: 3}
-      propertyPath: m_Name
-      value: RicochetRifle
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 6c2e70b3aaffd7449a0e7c061c0b1321, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6c2e70b3aaffd7449a0e7c061c0b1321, type: 3}
       propertyPath: m_LocalRotation.y
@@ -2439,6 +2439,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1057677478493114925}
     m_Modifications:
+    - target: {fileID: 100000, guid: 39731677359755b47bd28aa5463212a2, type: 3}
+      propertyPath: m_Name
+      value: GnomeGun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 39731677359755b47bd28aa5463212a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 39731677359755b47bd28aa5463212a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.351
@@ -2495,14 +2503,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5671926
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 39731677359755b47bd28aa5463212a2, type: 3}
-      propertyPath: m_Name
-      value: GnomeGun
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 39731677359755b47bd28aa5463212a2, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39731677359755b47bd28aa5463212a2, type: 3}
 --- !u!4 &4861239395332137429 stripped
@@ -2518,6 +2518,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8038784756629006089}
     m_Modifications:
+    - target: {fileID: 100002, guid: ce5555a95d31b0a4488e31874e876e37, type: 3}
+      propertyPath: m_Name
+      value: GnomeAiming
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ce5555a95d31b0a4488e31874e876e37, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -2561,10 +2565,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: ce5555a95d31b0a4488e31874e876e37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: ce5555a95d31b0a4488e31874e876e37, type: 3}
-      propertyPath: m_Name
-      value: GnomeAiming
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce5555a95d31b0a4488e31874e876e37, type: 3}
