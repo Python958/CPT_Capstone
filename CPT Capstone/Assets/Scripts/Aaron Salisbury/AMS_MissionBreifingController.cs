@@ -15,7 +15,7 @@ public class AMS_MissionBreifingController : MonoBehaviour
     //Displayed based on Level
     private string[] levelNames = {
         "Your First Shack", //Level 1
-        "Needs Name", //Level 2
+        "Stolen Weapons", //Level 2
         "Need Name", //Level 3
         "Need Name", //Level 4
         "Enemy Fortifications", //Level 5
@@ -27,7 +27,7 @@ public class AMS_MissionBreifingController : MonoBehaviour
         //Level 1
         "Here is your first gnome shack it’s in an extremely safe part of the backyard so you should only have to deal with a couple of invaders. If you can hold off the invaders for six days, we will upgrade you to a new and better shack.",
         //Level 2
-        "Needs a description",
+        "Moving into your new shack you should know that the woodland creatures have started to recruit squirrels. Be very careful around these guys, while they may look cute they will not hesitate to shoot you. Yes I said shoot they seemed to have gotten there paws on some of our guns. Good luck my bearded ally.",
         //Level 3
         "Needs a description",
         //Level 4

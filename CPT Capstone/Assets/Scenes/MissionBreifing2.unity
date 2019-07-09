@@ -1025,7 +1025,7 @@ MonoBehaviour:
   skipButton: {fileID: 192576970}
   leftDisplayImage:
   - {fileID: 21300000, guid: 491e22a148f3d264787c61b2806e9d6c, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: dd0edeee7c1687f408c4b95bc429833e, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 21300000, guid: aa96cdce494106d459a07224cfd92ab4, type: 3}
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 882e000c99934e9499b3a89cea2654ad, type: 3}
   rightDisplayImage:
   - {fileID: 21300000, guid: abf5d6f2991b8f14aa2a8c7b3b9b9279, type: 3}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 43f0af5547ec3e84abd05089b0c3cc36, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 21300000, guid: 7ec99bfa8e279f34992df65b393203af, type: 3}
