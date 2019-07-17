@@ -192,13 +192,16 @@ MonoBehaviour:
   coolDownTimer: 0
   counting: 1
   repeatWaves: 1
-  careAboutEnemies: 0
   enemiesSpawned: []
   trappedWave: 0
   fireWave: 0
   arrowObj: {fileID: 2539619937984074635, guid: 7271be3da605e5d48918097297cc51a4,
     type: 3}
+  WasThereAWaveChange: 0
   winningWave: 0
+  WinningWaveWasBeaten: 0
+  waveStartSound: {fileID: 8300000, guid: 51c9b7ffd42e7e549bb0b6e020d32af0, type: 3}
+  coolDownStartSound: {fileID: 8300000, guid: 0ada3faafb95d784b85b958078c68770, type: 3}
 --- !u!114 &5707269326654490293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,6 +224,8 @@ MonoBehaviour:
   - {fileID: 7527615695307125514, guid: 0d0ba1bd31ae62549a14ad8c7bafb992, type: 3}
   trapFloor: {fileID: 0}
   fireFloor: {fileID: 0}
+  careAboutEnemies: 1
+  addEnemyToCareList: 0
 --- !u!114 &5707269326654490292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,3 +248,5 @@ MonoBehaviour:
   - {fileID: 7527615695307125514, guid: 7179d860085109941b899565137aca06, type: 3}
   trapFloor: {fileID: 0}
   fireFloor: {fileID: 0}
+  careAboutEnemies: 1
+  addEnemyToCareList: 0

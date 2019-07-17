@@ -3251,7 +3251,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Level 5
+  m_Text: 'Level 6
 
 '
 --- !u!222 &1596193494
@@ -4193,7 +4193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 4 needs a score of "C" or higher to unlock
+  m_Text: Level 5 needs a score of "C" or higher to unlock
 --- !u!222 &1809961915
 CanvasRenderer:
   m_ObjectHideFlags: 0
