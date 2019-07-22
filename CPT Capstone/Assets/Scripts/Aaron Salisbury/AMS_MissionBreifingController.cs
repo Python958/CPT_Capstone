@@ -25,21 +25,21 @@ public class AMS_MissionBreifingController : MonoBehaviour
     };
     private string[] missionBreifingText = {
         //Level 1
-        "Here is your first gnome shack it’s in an extremely safe part of the backyard so you should only have to deal with a couple of invaders. If you can hold off the invaders for six days, we will upgrade you to a new and better shack.",
+        "Here is your shack it’s in an extremely safe part of the backyard so you should only have to deal with a couple of invaders. If you can fend off invaders for your shack, then you can start helping your neighbors. Who, haven't been through the rigorus training that you have been.",
         //Level 2
-        "Moving into your new shack you should know that the woodland creatures have started to recruit squirrels. Be very careful around these guys, while they may look cute they will not hesitate to shoot you. Yes I said shoot they seemed to have gotten there paws on some of our guns. Good luck my bearded ally.",
+        "You should know that the woodland creatures have started to recruit squirrels. Be very careful around these guys, while they may look cute they will not hesitate to shoot you. Yes I said shoot they seemed to have gotten there paws on some of our guns. Good luck my bearded friend and please protect my shack, if you can't then I will move into your shack in the safer part of town, after all these shacks look the same.",
         //Level 3
-        "Needs a description",
+        "Your neighbor is in trouble. They moved into a terrible part of town because the area was 'Cheaper' this has led to them being completely surrounded by some furry fortresses! Kill them at all cost. This shouldn't be difficult for you, right?",
         //Level 4
-        "Needs a description",
+        "This one may be tricky. The owner of this shack is a hoarder of explosives. This detail could help you, or it could get your gnome butt exploded. I guess either way its a win?",
         //Level 5
-        "Since you have proven yourself, we are moving you near to an extremely nice shack. Problem is those pesky animals have setup fortifications in the area. If you could take them out while you are there that would be greatly appreciated.",
+        "More furry fortresses... You know the drill, if you need me I will be drinking my gnome tap #notsponsered.",
         //Level 6
-        "URGENT MESSAGE: The largest invasion the wildlife creatures have ever done is underway. You have proven yourself to be an effective gnome fighter in the past, so you are being moved to the center of the action. The enemy is going to be dropping bombs all over the area so watch out. General gnome assures me the bombs won’t hurt your shack, but you aren’t so lucky. Be on the lookout while your there we have info that the invading forces leader Commander Cow is assisting in the attack. She will be a difficult adversary but must be defeated.",
+        "URGENT MESSAGE: The largest invasion the wildlife creatures have ever done is underway. You have proven yourself to be an effective gnome fighter in the past, so you will be the only soldier in on the action. The enemy is going to be dropping bombs all over the area so watch out. General gnome assures me the bombs won’t hurt the shack, but you aren’t so lucky. Be on the lookout while your there we have info that the invading force's leader, Commander Cow, is assisting in the attack. She will be a difficult adversary but must be defeated.",
         //Arena
-        "After seeing your skills at defending your shacks the gnomegineers have decided it might boost morale to have you fight in an arena for everyone to see. Don’t worry everything is perfectly safe, I think. So, go out there and have fun committing mass murder in front of an adoring crowd.",
+        "After seeing your skills at defending the shacks the gnomegineers have decided it might boost morale to have you fight in an arena for everyone to see. Don’t worry everything is perfectly safe, I think. So, go out there and have fun committing mass murder in front of an adoring crowd of one, me.",
         //Tutorial
-        "Welcome to the backyard. Before you move into your first shack general gnome would like to meet with you to go over the basics on how to defend it from those pesky forest creatures. Some gnomes choose not to visit general gnome, but some gnomes are also dead …. Sooo it’s up to you whether you want to pay him a visit. Either way welcome to the backyard and watch out for those pesky squirrels and ducks.",
+        "Welcome to the backyard. Before you move into your shack general gnome would like to meet with you to go over the basics on how to defend it from those pesky forest creatures. Some gnomes choose not to visit general gnome, but some gnomes are also dead …. Sooo it’s up to you whether you want to pay him a visit. Either way welcome to the backyard and watch out for those pesky squirrels and ducks.",
     }; //Missing Briefing Text // The Fortress Level }; 
 
     // \n creates a new line.
