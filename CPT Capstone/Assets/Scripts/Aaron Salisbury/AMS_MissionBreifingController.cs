@@ -16,8 +16,8 @@ public class AMS_MissionBreifingController : MonoBehaviour
     private string[] levelNames = {
         "Your First Shack", //Level 1
         "Stolen Weapons", //Level 2
-        "Need Name", //Level 3
-        "Need Name", //Level 4
+        "Symmetrical", //Level 3
+        "Explosives Expert", //Level 4
         "Enemy Fortifications", //Level 5
         "The Final Invasion", //Level 6
         "Bonus Round", //Arena
