@@ -5,6 +5,7 @@ using UnityEditor;
 
 public class RandomSpawningForHandPlacement : MonoBehaviour
 {
+    
     private Collider colliderBox;
     public GameObject[] decorateObject1;
     public float decorateObject1Spacing;        //should be how often you want the object to spawn
