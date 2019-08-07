@@ -758,16 +758,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.9148
       objectReference: {fileID: 0}
-    - target: {fileID: 385682904035392086, guid: 1a07c0ac8edcbf3498c5a084d727d8ae,
-        type: 3}
-      propertyPath: m_Name
-      value: Explosive
-      objectReference: {fileID: 0}
-    - target: {fileID: 385682904035392086, guid: 1a07c0ac8edcbf3498c5a084d727d8ae,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9176481074404701131, guid: 1a07c0ac8edcbf3498c5a084d727d8ae,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -782,6 +772,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.502755
+      objectReference: {fileID: 0}
+    - target: {fileID: 385682904035392086, guid: 1a07c0ac8edcbf3498c5a084d727d8ae,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosive
+      objectReference: {fileID: 0}
+    - target: {fileID: 385682904035392086, guid: 1a07c0ac8edcbf3498c5a084d727d8ae,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a07c0ac8edcbf3498c5a084d727d8ae, type: 3}
