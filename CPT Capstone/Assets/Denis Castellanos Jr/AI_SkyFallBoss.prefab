@@ -677,7 +677,7 @@ MonoBehaviour:
   bulletSpeed: 50
   bulletSpread: 0
   bulletTimer: 0
-  bulletDamage: 60
+  bulletDamage: 15
 --- !u!1 &7527615696220057863
 GameObject:
   m_ObjectHideFlags: 0

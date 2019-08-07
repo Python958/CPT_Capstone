@@ -930,7 +930,7 @@ MonoBehaviour:
   bulletSpeed: 0
   bulletSpread: 0
   bulletTimer: 0
-  bulletDamage: 26
+  bulletDamage: 13
   ammoMax: 0
   reloadMax: 0
   usesAmmo: 1

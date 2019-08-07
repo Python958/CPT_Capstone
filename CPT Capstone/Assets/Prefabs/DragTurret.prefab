@@ -5095,7 +5095,7 @@ MonoBehaviour:
   bulletSpeed: 0
   bulletSpread: 0
   bulletTimer: 0
-  bulletDamage: 26
+  bulletDamage: 13
   ammoMax: 0
   reloadMax: 0
   usesAmmo: 1
@@ -5346,6 +5346,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8641126719741250217}
     m_Modifications:
+    - target: {fileID: 100002, guid: a41c1770a44cda64aacd183fd95a02db, type: 3}
+      propertyPath: m_Name
+      value: TurretBottom
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: a41c1770a44cda64aacd183fd95a02db, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -5401,10 +5405,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: a41c1770a44cda64aacd183fd95a02db, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: a41c1770a44cda64aacd183fd95a02db, type: 3}
-      propertyPath: m_Name
-      value: TurretBottom
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a41c1770a44cda64aacd183fd95a02db, type: 3}

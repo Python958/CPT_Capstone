@@ -93,7 +93,7 @@ public class LevelSelectController : MonoBehaviour
                 {
                     allButtons[i + 1].interactable = true;
                     unlockText[i].enabled = false;
-                    Debug.Log("Turn On" + (i + 1));
+                  //  Debug.Log("Turn On" + (i + 1));
                 }
             }
             if (allLevels[i].text == "")
@@ -101,7 +101,7 @@ public class LevelSelectController : MonoBehaviour
                 if (i != allLevels.Length - 1 && i != allLevels.Length - 2)
                 {
                     allButtons[i + 1].interactable = false;
-                    Debug.Log("Turn Off " + (i + 1));
+                   // Debug.Log("Turn Off " + (i + 1));
                 }
 
             }

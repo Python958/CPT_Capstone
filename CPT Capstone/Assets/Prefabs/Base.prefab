@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1532d6b7d0ccf46459c177d02643bda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretRange: 35
+  turretRange: 20
   turretBaseRotationSpeed: 0
   turretCurrentRotationSpeed: 0
   currentBullet: {fileID: 8918367550601786764, guid: 35cb7cc0dd10a2c4f9fbababca4e443c,
@@ -58,7 +58,7 @@ MonoBehaviour:
   bulletSpeed: 20
   bulletSpread: 0
   bulletTimer: 0
-  bulletDamage: 10
+  bulletDamage: 7
   ammoMax: 0
   reloadMax: 0
   usesAmmo: 0
@@ -5033,7 +5033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78245fc223f6ab74eae3b00f974e6f99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 500
   currentHP: 0
   anim: {fileID: 665795862835958162}
   invulnerable: 0
@@ -9826,7 +9826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1532d6b7d0ccf46459c177d02643bda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretRange: 35
+  turretRange: 20
   turretBaseRotationSpeed: 0
   turretCurrentRotationSpeed: 0
   currentBullet: {fileID: 8918367550601786764, guid: 35cb7cc0dd10a2c4f9fbababca4e443c,
@@ -9838,7 +9838,7 @@ MonoBehaviour:
   bulletSpeed: 20
   bulletSpread: 0
   bulletTimer: 0
-  bulletDamage: 10
+  bulletDamage: 7
   ammoMax: 0
   reloadMax: 0
   usesAmmo: 0
@@ -10003,7 +10003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1532d6b7d0ccf46459c177d02643bda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretRange: 35
+  turretRange: 20
   turretBaseRotationSpeed: 0
   turretCurrentRotationSpeed: 0
   currentBullet: {fileID: 8918367550601786764, guid: 35cb7cc0dd10a2c4f9fbababca4e443c,
@@ -10015,7 +10015,7 @@ MonoBehaviour:
   bulletSpeed: 20
   bulletSpread: 0
   bulletTimer: 0
-  bulletDamage: 10
+  bulletDamage: 7
   ammoMax: 0
   reloadMax: 0
   usesAmmo: 0
@@ -10199,7 +10199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1532d6b7d0ccf46459c177d02643bda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretRange: 35
+  turretRange: 20
   turretBaseRotationSpeed: 0
   turretCurrentRotationSpeed: 0
   currentBullet: {fileID: 8918367550601786764, guid: 35cb7cc0dd10a2c4f9fbababca4e443c,
@@ -10211,7 +10211,7 @@ MonoBehaviour:
   bulletSpeed: 20
   bulletSpread: 0
   bulletTimer: 0
-  bulletDamage: 10
+  bulletDamage: 7
   ammoMax: 0
   reloadMax: 0
   usesAmmo: 0

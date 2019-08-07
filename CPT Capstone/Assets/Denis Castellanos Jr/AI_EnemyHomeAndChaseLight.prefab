@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51e569edba6016649a93598a562fb65d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 15
+  damageAmount: 8
   coolDownMax: 3
 --- !u!1 &5408687907202274661
 GameObject:

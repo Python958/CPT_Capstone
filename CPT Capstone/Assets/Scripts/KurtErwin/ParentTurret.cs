@@ -61,7 +61,7 @@ public class ParentTurret : MonoBehaviour
         shotTimerCurrent = shotCurrentTimerMax;
 
         //check for editor input or go with default values
-        turretRange = (turretRange > 0f) ? turretRange : 50f;
+        turretRange = (turretRange > 0f) ? turretRange : 20f;
         turretBaseRotationSpeed = (turretBaseRotationSpeed > 0f) ? turretBaseRotationSpeed : 120f;
         turretCurrentRotationSpeed = turretBaseRotationSpeed;
         shotBaseTimerMax = (shotBaseTimerMax > 0f) ? shotBaseTimerMax : .2f;
@@ -69,7 +69,7 @@ public class ParentTurret : MonoBehaviour
 
         bulletSpeed = (bulletSpeed > 0f) ? bulletSpeed : 18f;
         bulletTimer = (bulletTimer > 0f) ? bulletTimer : 3f;
-        bulletDamage = (bulletDamage > 0) ? bulletDamage : 10;
+        bulletDamage = (bulletDamage > 0) ? bulletDamage : 7;
 
         ammoMax = (ammoMax > 0) ? ammoMax : 8;
         ammoCurrent = ammoMax;

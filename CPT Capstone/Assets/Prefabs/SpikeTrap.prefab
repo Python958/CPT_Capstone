@@ -60,7 +60,7 @@ MonoBehaviour:
   spikes: {fileID: 5506179026146335437}
   cooldown: 10
   deployTime: 3
-  spikeDamage: 100
+  spikeDamage: 30
   buyControls: {fileID: 0}
 --- !u!1001 &2757977441843024663
 PrefabInstance:
